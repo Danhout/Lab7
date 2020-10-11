@@ -1,0 +1,122 @@
+[
+  {
+    "first": {
+      "id": 33,
+      "name": "Maria",
+      "coordinates": {
+        "x": 101,
+        "y": 204
+      },
+      "creationDate": {
+        "dateTime": {
+          "date": {
+            "year": 2020,
+            "month": 10,
+            "day": 8
+          },
+          "time": {
+            "hour": 23,
+            "minute": 16,
+            "second": 45,
+            "nano": 401000000
+          }
+        },
+        "offset": {
+          "totalSeconds": 10800
+        },
+        "zone": "Europe/Moscow"
+      },
+      "health": 103,
+      "height": 200,
+      "category": "HELIX",
+      "meleeWeapon": "POWER_SWORD",
+      "chapter": {
+        "name": "George",
+        "parentLegion": "Moskau",
+        "marinesCount": 3,
+        "world": "Earth"
+      }
+    },
+    "second": "postgres"
+  },
+  {
+    "first": {
+      "id": 34,
+      "name": "Ivan",
+      "coordinates": {
+        "x": 44,
+        "y": 17
+      },
+      "creationDate": {
+        "dateTime": {
+          "date": {
+            "year": 2020,
+            "month": 10,
+            "day": 10
+          },
+          "time": {
+            "hour": 4,
+            "minute": 15,
+            "second": 36,
+            "nano": 715000000
+          }
+        },
+        "offset": {
+          "totalSeconds": 10800
+        },
+        "zone": "Europe/Moscow"
+      },
+      "health": 57,
+      "height": 92,
+      "category": "CHAPLAIN",
+      "meleeWeapon": "CHAIN_SWORD",
+      "chapter": {
+        "name": "Gosha",
+        "parentLegion": "Tula",
+        "marinesCount": 4,
+        "world": "Sun"
+      }
+    },
+    "second": "postgres"
+  },
+  {
+    "first": {
+      "id": 35,
+      "name": "Maria",
+      "coordinates": {
+        "x": 101,
+        "y": 204
+      },
+      "creationDate": {
+        "dateTime": {
+          "date": {
+            "year": 2020,
+            "month": 10,
+            "day": 10
+          },
+          "time": {
+            "hour": 4,
+            "minute": 15,
+            "second": 37,
+            "nano": 79000000
+          }
+        },
+        "offset": {
+          "totalSeconds": 10800
+        },
+        "zone": "Europe/Moscow"
+      },
+      "health": 103,
+      "height": 200,
+      "category": "HELIX",
+      "meleeWeapon": "POWER_SWORD",
+      "chapter": {
+        "name": "George",
+        "parentLegion": "Moskau",
+        "marinesCount": 3,
+        "world": "Earth"
+      }
+    },
+    "second": "postgres"
+  }
+]
