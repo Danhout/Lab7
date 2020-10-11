@@ -33,7 +33,8 @@ import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.RecursiveAction;
 import java.util.stream.Collectors;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Server's class for commands.
@@ -44,7 +45,7 @@ import org.apache.log4j.Logger;
 public class ServerConsole extends SimpleCMD {
 
     /* Log4j 2 */
-    static final Logger logger = Logger.getLogger(ServerConsole.class);
+    static final Logger logger = LogManager.getLogger(ServerConsole.class);
 
     /**
      * The queue for processing space marines and saving they.
