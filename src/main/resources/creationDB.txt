@@ -1,0 +1,34 @@
+CREATE TABLE users 
+(
+	login VARCHAR(32) NOT NULL PRIMARY KEY,
+	hash_password BYTEA NOT NULL
+);
+CREATE TABLE space_marines
+(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(32) NOT NULL,
+
+	coordinate_x BIGINT NOT NULL,
+	coordinate_y BIGINT,
+
+	creation_date_year INT NOT NULL,
+	creation_date_month INT NOT NULL,
+	creation_date_day INT NOT NULL,
+	creation_time_hour INT NOT NULL,
+	creation_time_minute INT NOT NULL,
+	creation_time_second INT NOT NULL,
+	creation_time_nano INT NOT NULL,
+	creation_zone_id VARCHAR(255) NOT NULL,
+
+	health BIGINT NOT NULL,
+	height INT,
+	category VARCHAR(32) NOT NULL,
+	melee_weapon VARCHAR(32) NOT NULL,
+
+	chapter_name VARCHAR(255) NOT NULL,
+	chapter_parent_legion VARCHAR(255),
+	chapter_marines_count INT NOT NULL,
+	chapter_world VARCHAR(255),
+
+	creator_user_login VARCHAR(32) NOT NULL REFERENCES users(login)
+);
