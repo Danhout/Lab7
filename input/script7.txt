@@ -1,0 +1,2 @@
+execute_script input/script6.txt
+show

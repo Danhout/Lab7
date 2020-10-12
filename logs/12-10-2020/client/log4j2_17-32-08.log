@@ -1,0 +1,8 @@
+WARN  | 12-10-2020 17:32:12 | client.Client - Input server ip's string: "java.io.BufferedReader@3abbfa04".
+WARN  | 12-10-2020 17:32:12 | client.Client - Use default server IP: 8000.
+WARN  | 12-10-2020 17:32:13 | client.Client - Input server port's string: "java.io.BufferedReader@3abbfa04".
+WARN  | 12-10-2020 17:32:13 | client.Client - Use default port: 8000.
+ERROR | 12-10-2020 17:32:13 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 12-10-2020 17:32:15 | client.ClientConsole - Try authorizer user.
+WARN  | 12-10-2020 17:32:17 | client.ClientConsole - Input user's login: "java.io.BufferedReader@490ab905".
+INFO  | 12-10-2020 17:32:17 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.

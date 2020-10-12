@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Daniil",
+    "coordinates": {
+      "x": 100,
+      "y": 200
+    },
+    "health": 104,
+    "height": 209,
+    "category": "CHAPLAIN",
+    "meleeWeapon": "POWER_FIST",
+    "chapter": {
+      "name": "Petr",
+      "parentLegion": "Kaluga",
+      "marinesCount": 2,
+      "world": "Earth"
+    }
+  },
+  {
+    "name": "Egor",
+    "coordinates": {
+      "x": 70,
+      "y": 400
+    },
+    "health": 13,
+    "height": 29,
+    "category": "HELIX",
+    "meleeWeapon": "MANREAPER",
+    "chapter": {
+      "name": "Ivan",
+      "parentLegion": "Moskow",
+      "marinesCount": 3,
+      "world": "Moon"
+    }
+  },
+  {
+    "name": "Nikolay",
+    "coordinates": {
+      "x": 355,
+      "y": 43
+    },
+    "health": 204,
+    "height": 409,
+    "category": "ASSAULT",
+    "meleeWeapon": "POWER_FIST",
+    "chapter": {
+      "name": "Nikita",
+      "parentLegion": "Sankt-Petersburg",
+      "marinesCount": 4,
+      "world": "Sun"
+    }
+  }
+]

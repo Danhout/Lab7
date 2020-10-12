@@ -1,0 +1,72 @@
+WARN  | 12-10-2020 17:36:03 | server.Server - Input port's string: "".
+ERROR | 12-10-2020 17:36:03 | server.Server - Use default port: 8000.
+WARN  | 12-10-2020 17:36:03 | server.Server - Input login's string: "".
+WARN  | 12-10-2020 17:36:06 | server.Server - Input login's string: "postgres".
+INFO  | 12-10-2020 17:36:06 | server.Server - Correct login's format.
+INFO  | 12-10-2020 17:36:06 | server.Server - Input invisibility mode for password is disabled
+INFO  | 12-10-2020 17:36:20 | server.Server - Correct password's format.
+INFO  | 12-10-2020 17:36:22 | server.Server - Admin: "postgres" connect to the database.
+INFO  | 12-10-2020 17:36:22 | server.Server - The admin connect to the database.
+INFO  | 12-10-2020 17:36:22 | server.ServerConsole - Server with IP: 127.0.0.1, PORT: 8000 is created.
+INFO  | 12-10-2020 17:36:23 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33344 is connected.
+INFO  | 12-10-2020 17:36:23 | server.ServerConsole - Count of clients' connections: 1.
+INFO  | 12-10-2020 17:36:23 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33346 is connected.
+INFO  | 12-10-2020 17:36:23 | server.ServerConsole - Count of clients' connections: 2.
+INFO  | 12-10-2020 17:36:24 | server.ServerConsole - Client with IP: 127.0.0.1, PORT: 33348 is connected.
+INFO  | 12-10-2020 17:36:24 | server.ServerConsole - Count of clients' connections: 3.
+WARN  | 12-10-2020 17:36:28 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:28 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 12-10-2020 17:36:28 | server.ServerConsole$ClientCallable - Login: "daniil" already exist.
+INFO  | 12-10-2020 17:36:28 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:36:35 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:35 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 12-10-2020 17:36:35 | server.ServerConsole$ClientCallable - Login: "daniil" already exist.
+INFO  | 12-10-2020 17:36:35 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:36:39 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:39 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 12-10-2020 17:36:39 | server.ServerConsole$ClientCallable - User: "daniil" authorize.
+INFO  | 12-10-2020 17:36:39 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:36:49 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:49 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+INFO  | 12-10-2020 17:36:49 | server.ServerConsole$ClientCallable - User: "daniil" authorize.
+INFO  | 12-10-2020 17:36:49 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:36:52 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:52 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:36:52 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:36:52 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:36:55 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:36:55 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:36:55 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:36:55 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:38:01 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:01 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:01 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "add".
+INFO  | 12-10-2020 17:38:01 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:38:03 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:03 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:03 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "add".
+INFO  | 12-10-2020 17:38:03 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:38:06 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:06 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:06 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:38:06 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:38:08 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:08 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:08 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:38:08 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:38:19 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:19 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:19 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "clear".
+INFO  | 12-10-2020 17:38:19 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33348.
+WARN  | 12-10-2020 17:38:23 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:23 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:23 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:38:23 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:38:27 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:27 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:27 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "clear".
+INFO  | 12-10-2020 17:38:27 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.
+WARN  | 12-10-2020 17:38:28 | server.ServerConsole$ClientCallable - Get data of user: daniil.
+INFO  | 12-10-2020 17:38:28 | server.ServerConsole$ClientCallable - Processing data of user: daniil.
+WARN  | 12-10-2020 17:38:28 | server.ServerConsole$ClientCallable - User: "daniil" try to invoking command "info".
+INFO  | 12-10-2020 17:38:28 | server.ServerConsole$RequestAction - Send server's response to client with IP: 127.0.0.1, PORT: 33346.

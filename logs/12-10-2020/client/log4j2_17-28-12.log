@@ -1,0 +1,27 @@
+WARN  | 12-10-2020 17:29:07 | client.Client - Input server ip's string: "java.io.BufferedReader@3abbfa04".
+WARN  | 12-10-2020 17:29:07 | client.Client - Use default server IP: 8000.
+WARN  | 12-10-2020 17:29:07 | client.Client - Input server port's string: "java.io.BufferedReader@3abbfa04".
+WARN  | 12-10-2020 17:29:07 | client.Client - Use default port: 8000.
+ERROR | 12-10-2020 17:29:07 | client.ClientConsole - IOException in command or connection.
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:1.8.0_251]
+	at sun.nio.ch.Net.connect(Net.java:454) ~[?:1.8.0_251]
+	at sun.nio.ch.Net.connect(Net.java:446) ~[?:1.8.0_251]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648) ~[?:1.8.0_251]
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189) ~[?:1.8.0_251]
+	at ru.itmo.s284719.client.ClientConsole.connectionToServer(ClientConsole.java:74) [classes/:?]
+	at ru.itmo.s284719.client.ClientConsole.<init>(ClientConsole.java:68) [classes/:?]
+	at ru.itmo.s284719.client.Client.main(Client.java:144) [classes/:?]
+ERROR | 12-10-2020 17:29:09 | client.ClientConsole - New connection to server with IP: 127.0.0.1, PORT: 8000 is fail
+ERROR | 12-10-2020 17:29:11 | client.ClientConsole - New connection to server with IP: 127.0.0.1, PORT: 8000 is fail
+ERROR | 12-10-2020 17:29:13 | client.ClientConsole - New connection to server with IP: 127.0.0.1, PORT: 8000 is fail
+ERROR | 12-10-2020 17:29:15 | client.ClientConsole - New connection to server with IP: 127.0.0.1, PORT: 8000 is fail
+ERROR | 12-10-2020 17:29:17 | client.ClientConsole - New connection to server with IP: 127.0.0.1, PORT: 8000 is fail
+ERROR | 12-10-2020 17:29:19 | client.ClientConsole - Connected to server with IP: 127.0.0.1, PORT: 8000.
+WARN  | 12-10-2020 17:29:41 | client.ClientConsole - Try authorizer user.
+WARN  | 12-10-2020 17:29:44 | client.ClientConsole - Input user's login: "java.io.BufferedReader@ff5b51f".
+INFO  | 12-10-2020 17:29:44 | client.ClientConsole - Send user's login to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 12-10-2020 17:29:44 | client.ClientConsole - Login: daniil2 is exist.
+INFO  | 12-10-2020 17:29:44 | client.ClientConsole - Input invisibility mode for password is disabled
+INFO  | 12-10-2020 17:29:47 | client.ClientConsole - Send user's full data to server with IP: 127.0.0.1, PORT: 8000 for logging.
+INFO  | 12-10-2020 17:29:47 | client.ClientConsole - User: daniil2 is authorized.

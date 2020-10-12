@@ -1,0 +1,14 @@
+add 
+Ivan
+44
+17
+57
+92
+CHAPLAIN
+CHAIN_SWORD
+Gosha
+Tula
+4
+Sun
+
+execute_script input/script1.txt
