@@ -1,0 +1,7 @@
+Manifest-Version: 0.0.1
+Built-By: daniil
+Build-Jdk: 1.8.0_251
+Class-Path: settings/
+Created-By: Apache Maven 5.4.0
+Main-Class: ru.itmo.s284719.server.Server
+Archiver-Version: Plexus Archiver
