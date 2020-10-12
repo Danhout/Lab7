@@ -6,7 +6,7 @@
     <parent>
         <artifactId>Lab7</artifactId>
         <groupId>ru.itmo.s284719</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -20,6 +20,7 @@
 
     <build>
         <plugins>
+            <!--JDK version-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

@@ -6,7 +6,7 @@
     <parent>
         <artifactId>Lab7</artifactId>
         <groupId>ru.itmo.s284719</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -15,6 +15,7 @@
 
     <build>
         <plugins>
+            <!--JDK version-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -24,6 +25,22 @@
                     <target>${jdk.version}</target>
                 </configuration>
             </plugin>
+            <!--JAR-->
+            <plugin>
+                <!-- Build an executable JAR -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>ru.itmo.s284719.server.Server</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -31,7 +48,7 @@
         <dependency>
             <groupId>ru.itmo.s284719</groupId>
             <artifactId>network</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <!--GSON-->
         <dependency>
