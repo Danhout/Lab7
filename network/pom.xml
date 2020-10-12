@@ -10,6 +10,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.itmo.s284719</groupId>
     <artifactId>network</artifactId>
     <packaging>pom</packaging>
 

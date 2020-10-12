@@ -31,7 +31,7 @@
 <!--                <configuration>-->
 <!--                    <archive>-->
 <!--                        <manifest>-->
-<!--                            <mainClass>client.Client</mainClass>-->
+<!--                            <mainClass>ru.itmo.s284719.client.Client</mainClass>-->
 <!--                        </manifest>-->
 <!--                    </archive>-->
 <!--                </configuration>-->

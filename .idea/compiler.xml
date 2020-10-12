@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="network (2) (ru.itmo)" target="1.5" />
+      <module name="test" target="1.8" />
+      <module name="Test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
